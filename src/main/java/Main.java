@@ -10,7 +10,6 @@ public class Main {
         GetInfo getInfo = new GetInfo(startPage.getGeneralEnglish());
 
         new BritishCouncilDAO().addVehicleBrand(getInfo.getAlphabet());
-
         startPage.closeDriver();
     }
 }
